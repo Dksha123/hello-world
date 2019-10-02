@@ -161,7 +161,7 @@
       </plugins>
     </pluginManagement>
   </build>
-   <distributionManagement>
+  <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
@@ -172,7 +172,7 @@
             <name>Internal Snapshot Releases</name>
             <url>http://54.242.63.202:8081/nexus/content/repositories/99/</url>
         </snapshotRepository>
-    </distributionManagement>
+   </distributionManagement>
 
   <dependencyManagement>
     <dependencies>
